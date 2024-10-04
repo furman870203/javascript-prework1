@@ -1,8 +1,6 @@
-var buttonTest = document.getElementById('button-test');
-// tu będą kolejne linie kodu, w których do zmiennych będą przypisane elementy znalezione po id
-var buttonRock = document.getElementById('button-rock');
-var buttonPaper = document.getElementById('button-paper');
-var buttonScissors = document.getElementById('button-scissors');
+const buttonRock = document.getElementById('button-rock');
+const buttonPaper = document.getElementById('button-paper');
+const buttonScissors = document.getElementById('button-scissors');
 function buttonClicked(argButtonName){
     clearMessages();
     console.log(argButtonName + "został kliknięty");
@@ -10,7 +8,7 @@ function buttonClicked(argButtonName){
     // tu znajdzie się cała dotychczasowa zawartość pliku js/script.js
     // czyli efekt ćwiczenia z poprzedniego submodułu
     // z drobną zmianą dot. zmiennej playerMove (wspomnieliśmy o tym powyżej)
-    var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+    let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
 
     /**
      * Describe this function...
